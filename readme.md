@@ -115,3 +115,18 @@ webpack 5.10.0 compiled successfully in 1519 ms
 
 - 每个文件对于rules中的所有规则都会遍历一遍，如果使用oneOf就可以解决该问题，主要能匹配一个即可退出
 - 在oneOf中不能两个配置处理同一种类型文件
+
+
+### dll废弃了
+
+### 3.1.7 noParse
+
+- module.noParse 字段， 可以用于配置哪些模块文件的内容不需要进行解析
+- 不需要解析(即无依赖)的第三方大型类库等，可以通过这个字段来配置，以提高整体的构建速度
+- 使用noParse进行忽略的模块文件中不能使用import、 require等语法
+
+### 3.3 IgnorePlugin
+- ignore-plugin用于忽略某些特定的模块，让webpack不把这些指定的模块打包进去
+- requestRegExp 匹配 (test)资源请求路径的正则表达式
+- contextRegExp (可选) 匹配(test) 资源上下文(目录)  的正则表达式
+- moment会将所有本地化内容和核心功能一起打包，可以使用 IgnorePlugin 在打包时忽略本地化内容

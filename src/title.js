@@ -1,3 +1,6 @@
-let a = 1;
+/* let a = 1;
 
-module.exports = a;
+module.exports = a; */
+let name = require('./name')
+
+module.exports = 'title ' + name;

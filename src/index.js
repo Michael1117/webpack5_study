@@ -8,4 +8,11 @@ console.log(title)
 /* let $ = require('jquery')
 console.log($) */
 
-import './index.css'
+/*  import './index.css'*/
+
+/* let title = require('./title')
+console.log(title) */
+
+import moment from 'moment'
+import 'moment/locale/zh-cn'
+console.log(moment)

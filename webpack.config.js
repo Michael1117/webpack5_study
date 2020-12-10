@@ -6,8 +6,10 @@ const SpeedMeasureWebpack5Plugin = require('speed-measure-webpack5-plugin')
 const smw = new SpeedMeasureWebpack5Plugin();
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const bootstrap = path.resolve(__dirname, 'node_modules/bootstrap/dist/css/bootstrap.css')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 const loadersPath = path.resolve(__dirname, 'loaders')
+
 
 module.exports = {
     mode: 'development',        // 配置的模式
@@ -25,13 +27,16 @@ module.exports = {
         mainFields: ['browser', 'module', 'main'],      // 从package.json中哪个字段查找入口文件
         mainFiles: ['index']  // 如果找不到mainFields的话，会找索引文件index.js
     },
-    resolveLoader: {
+    resolveLoader: {    // 只对loader有用
         modules: [loadersPath, 'node_modules']
     },
     externals: {
         jquery: 'jQuery'
     },
+    // oneOf只可能匹配数组中的某一个， 找到一个之后就不再继续查找剩下的loader
     module: {
+        // 如果模块的路径匹配此正则的话，就不需要去查找里面的依赖项  require  import
+        noParse: /title.js/,
         rules: [
            {
                 oneOf: [
@@ -73,6 +78,10 @@ module.exports = {
         new BundleAnalyzerPlugin({
             analyzerMode: 'disabled',   // 不启动展示打包报告的HTTP服务器
             generateStatsFile: true     // 要生成stats.json文件
+        }),
+        new webpack.IgnorePlugin({
+            resourceRegExp: /^\.\/locale$/,     // 资源正则
+            contextRegExp: /moment$/        // 上下文，目录正则
         })
     ]
 }
