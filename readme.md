@@ -95,3 +95,23 @@ cacheable modules 714 KiB
     ./src/title.js 33 bytes [built] [code generated]
 webpack 5.10.0 compiled successfully in 1519 ms
 ```
+
+
+### 3.1.3 modules
+- 对于直接声明依赖名的模块webpack会使用类似 Node.js 一样进行路径搜索，搜索node_modules目录
+- 如果可以确定项目内所有的第三方依赖模块都是在项目根目录下node_modules中的话可以直接指定
+- 默认配置
+
+
+
+### 3.1.4 mainFields
+- 默认情况下 package.json 文件则按照文件中 main字段的文件名来查找文件
+
+
+### 3.1.5 mainFiles
+- 当目录下没有 package.json 文件时，  会默认使用目录下的index.js 这个文件
+
+### 3.1.6 oneOf
+
+- 每个文件对于rules中的所有规则都会遍历一遍，如果使用oneOf就可以解决该问题，主要能匹配一个即可退出
+- 在oneOf中不能两个配置处理同一种类型文件

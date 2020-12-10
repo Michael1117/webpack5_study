@@ -18,19 +18,32 @@ module.exports = smw.wrap({
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
-        alias: {
-            bootstrap
-        }
+        alias: {bootstrap},
+        modules: ["c:/node_modules", 'node_modules'],
+        mainFields: ['browser', 'module', 'main'],      // 从package.json中哪个字段查找入口文件
+        mainFile: ['index']
     },
     module: {
         rules: [
-            {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
+           {
+                oneOf: [
+                    {
+                        test: /\.css$/,
+                        use: [
+                            'style-loader',
+                            'css-loader'
+                        ]
+                    },
+                    {
+                        test: /\.css$/,
+                        use: [
+                            'style-loader',
+                            'css-loader',
+                            'less-loader'
+                        ]
+                    },
                 ]
-            }
+           }
         ]
     },
     plugins: [
