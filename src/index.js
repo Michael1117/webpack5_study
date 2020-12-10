@@ -8,3 +8,4 @@ console.log(title)
 /* let $ = require('jquery')
 console.log($) */
 
+import './index.css'
