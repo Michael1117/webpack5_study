@@ -6,6 +6,7 @@ const SpeedMeasureWebpack5Plugin = require('speed-measure-webpack5-plugin')
 const smw = new SpeedMeasureWebpack5Plugin();
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const bootstrap = path.resolve(__dirname, 'node_modules/bootstrap/dist/css/bootstrap.css')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = smw.wrap({
     mode: 'development',        // 配置的模式
@@ -17,11 +18,17 @@ module.exports = smw.wrap({
         filename: '[name].js'       // 输出的文件名
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.json'],
-        alias: {bootstrap},
-        modules: ["c:/node_modules", 'node_modules'],
+        extensions: ['.js', '.jsx', '.json'],  //  指定文件的扩展名
+        alias: {bootstrap}, //  指定查找别名
+        modules: ["c:/node_modules", 'node_modules'], //  指定查找目录
         mainFields: ['browser', 'module', 'main'],      // 从package.json中哪个字段查找入口文件
-        mainFile: ['index']
+        mainFiles: ['index']  // 如果找不到mainFields的话，会找索引文件index.js
+    },
+    resolveLoader: {
+        modules: []
+    },
+    externals: {
+        jquery: 'jQuery'
     },
     module: {
         rules: [
@@ -30,6 +37,7 @@ module.exports = smw.wrap({
                     {
                         test: /\.css$/,
                         use: [
+                            'logger-loader',
                             'style-loader',
                             'css-loader'
                         ]
@@ -47,6 +55,9 @@ module.exports = smw.wrap({
         ]
     },
     plugins: [
+        new HtmlWebpackPlugin({
+            template: './src/index.html'
+        }),
         new FriendlyErrorsWebpackPlugin({
             onErrors: (severity, errors) => {
                 let error = errors[0]
