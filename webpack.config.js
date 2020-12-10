@@ -5,6 +5,7 @@ const icon = path.join(__dirname, 'icon.png')
 const SpeedMeasureWebpack5Plugin = require('speed-measure-webpack5-plugin')
 const smw = new SpeedMeasureWebpack5Plugin();
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const bootstrap = path.resolve(__dirname, 'node_modules/bootstrap/dist/css/bootstrap.css')
 
 module.exports = smw.wrap({
     mode: 'development',        // 配置的模式
@@ -14,6 +15,23 @@ module.exports = smw.wrap({
     output: {
         path: path.resolve(__dirname, 'dist'),  // 输出的路径
         filename: '[name].js'       // 输出的文件名
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.json'],
+        alias: {
+            bootstrap
+        }
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
     },
     plugins: [
         new FriendlyErrorsWebpackPlugin({
@@ -27,6 +45,9 @@ module.exports = smw.wrap({
                 })
             }
         }),
-        new BundleAnalyzerPlugin()
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'disabled',   // 不启动展示打包报告的HTTP服务器
+            generateStatsFile: true     // 要生成stats.json文件
+        })
     ]
 })

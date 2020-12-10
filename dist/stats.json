@@ -1,0 +1,1597 @@
+{
+  "hash": "320ab66b719e0215fef1",
+  "version": "5.10.0",
+  "time": 1519,
+  "builtAt": 1607566630771,
+  "publicPath": "auto",
+  "outputPath": "E:\\code\\webpack_5\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 738287,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "main.js.map"
+        },
+        "size": 738287
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.js.map",
+          "size": 949713,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 949713
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 732125,
+      "sizes": {
+        "javascript": 731194,
+        "runtime": 931
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "d741fce666bf6c18d7a5",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 316,
+          "sizes": {
+            "javascript": 316
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "nameForCondition": "E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "bootstrap",
+              "loc": "3:0-20",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 720072,
+          "sizes": {
+            "javascript": 720072
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "nameForCondition": "E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "issuerName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+              "loc": "2:12-84",
+              "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+              "loc": "9:17-24",
+              "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+              "loc": "13:15-29",
+              "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 1605,
+          "sizes": {
+            "javascript": 1605
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../css-loader/dist/runtime/api.js",
+              "loc": "3:0-82",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 9:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 2266,
+          "sizes": {
+            "javascript": 2266
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "nameForCondition": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "2:0-111",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../../css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "4:58-95",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+              "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "15:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 15:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 6827,
+          "sizes": {
+            "javascript": 6827
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "nameForCondition": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "issuerName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "issuerId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "1:0-82",
+              "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+              "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "loc": "9:13-16",
+              "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "230:0-14",
+              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 230:0-14"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 75,
+          "sizes": {
+            "javascript": 75
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "E:\\code\\webpack_5\\src\\index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/index.js",
+          "issuerId": null,
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "size": 33,
+          "sizes": {
+            "javascript": 33
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "E:\\code\\webpack_5\\src\\title.js",
+          "name": "./src/title.js",
+          "nameForCondition": "E:\\code\\webpack_5\\src\\title.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\code\\webpack_5\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\code\\webpack_5\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/title.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./title",
+              "loc": "1:12-30",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "E:\\code\\webpack_5\\src\\title.js",
+              "module": "./src/title.js",
+              "moduleName": "./src/title.js",
+              "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\title.js",
+              "resolvedModule": "./src/title.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": "./src/title.js",
+              "resolvedModuleId": "./src/title.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 263,
+          "sizes": {
+            "runtime": 263
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 86,
+          "sizes": {
+            "runtime": 86
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 75,
+      "sizes": {
+        "javascript": 75
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\src\\index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "E:\\code\\webpack_5\\src\\index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/index.js",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 33,
+      "sizes": {
+        "javascript": 33
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\src\\title.js",
+      "name": "./src/title.js",
+      "nameForCondition": "E:\\code\\webpack_5\\src\\title.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/title.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./title",
+          "loc": "1:12-30",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\src\\title.js",
+          "module": "./src/title.js",
+          "moduleName": "./src/title.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\title.js",
+          "resolvedModule": "./src/title.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": "./src/title.js",
+          "resolvedModuleId": "./src/title.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 316,
+      "sizes": {
+        "javascript": 316
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "nameForCondition": "E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "bootstrap",
+          "loc": "3:0-20",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 6827,
+      "sizes": {
+        "javascript": 6827
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "issuerName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "issuerId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "1:0-82",
+          "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "9:13-16",
+          "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "230:0-14",
+          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 230:0-14"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 720072,
+      "sizes": {
+        "javascript": 720072
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "nameForCondition": "E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "issuerName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+          "loc": "2:12-84",
+          "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+          "loc": "9:17-24",
+          "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../../../css-loader/dist/cjs.js!./bootstrap.css",
+          "loc": "13:15-29",
+          "moduleId": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 2266,
+      "sizes": {
+        "javascript": 2266
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+      "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "nameForCondition": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../css-loader/dist/runtime/cssWithMappingToString.js",
+          "loc": "2:0-111",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../css-loader/dist/runtime/cssWithMappingToString.js",
+          "loc": "4:58-95",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "15:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 15:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "size": 1605,
+      "sizes": {
+        "javascript": 1605
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "issuerPath": [
+        {
+          "identifier": "E:\\code\\webpack_5\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\style-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "identifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../css-loader/dist/runtime/api.js",
+          "loc": "3:0-82",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\cjs.js!E:\\code\\webpack_5\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../../css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "moduleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "E:\\code\\webpack_5\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "9:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 9:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 263,
+      "sizes": {
+        "runtime": 263
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 86,
+      "sizes": {
+        "runtime": 86
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 738287
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 738287,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 949713
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 949713,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 738287
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 738287,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 949713
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 949713,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
