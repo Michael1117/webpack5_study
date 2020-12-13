@@ -137,3 +137,34 @@ webpack 5.10.0 compiled successfully in 1519 ms
 - include 表示哪些目录中的.js 文件需要进行 babel-loader
 - exclude 表示哪些目录中的 .js 文件不要进行 babel-loader
 - exclude 的优先级高于 include, 尽量避免exclude, 更倾向于使用 include
+
+
+## 3.5 利用缓存
+
+- 利用缓存可以提升重复构建的速度
+
+### 3.5.1 babel-loader
+
+- Babel在转义js文件过程中消耗性能较高，将babel-loader执行的结果缓存起来，当重新打包构建时会尝试读取缓存，从而提高打包构建速度、降低消耗
+- 默认存放位置是 node_modules/.cache/babel-loader
+
+### 3.5.2 cache-loader
+
+- 在一些性能开销较大的cache-loader之前添加此 loader, 可以将结果缓存到磁盘中
+- 默认存放位置是 node_modules/.cache/cache-loader
+```
+npm i cache-loader -D
+```
+
+npx webpack --watch
+
+### 3.5.3 hard-source-webpack-plugin
+
+- hardSourceWebpackPlugin为模块提供了中间缓存，缓存默认存放的路径是 node_modules/.cache/hard-source
+- 配置hard-source-webpack-plugin后，首次构建时间并不会有太大的变化，但是从第二次开始，构建时间大约可以减少80%左右
+- webpack5中内置了模块缓存，不需要再使用此插件
+```
+npm i hard-source-webpack-plugin -D
+```
+
+https://github.com/webpack/webpack/issues/6527

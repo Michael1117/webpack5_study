@@ -46,12 +46,18 @@ module.exports = {
                         exclude: /node_modules/,
                         use: [
                             {loader: 'thread-loader', options: {workers: 3}},
-                            'babel-loader',
+                            {
+                                loader: 'babel-loader',
+                                options: {
+                                    cacheDirectory: true        // 启动babel缓存
+                                }
+                            }
                         ]
                     },
                     {
                         test: /\.css$/,
                         use: [
+                            'cache-loader',
                             'logger-loader',
                             'style-loader',
                             'css-loader'
