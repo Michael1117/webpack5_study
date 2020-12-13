@@ -130,3 +130,10 @@ webpack 5.10.0 compiled successfully in 1519 ms
 - requestRegExp 匹配 (test)资源请求路径的正则表达式
 - contextRegExp (可选) 匹配(test) 资源上下文(目录)  的正则表达式
 - moment会将所有本地化内容和核心功能一起打包，可以使用 IgnorePlugin 在打包时忽略本地化内容
+
+
+### 3.4 thread-loader(多进程)
+- 把thread-loader放置在其他loader之前，放置在这个loader之后的loader就会在一个单独的worker池(worker pool)中运行
+- include 表示哪些目录中的.js 文件需要进行 babel-loader
+- exclude 表示哪些目录中的 .js 文件不要进行 babel-loader
+- exclude 的优先级高于 include, 尽量避免exclude, 更倾向于使用 include

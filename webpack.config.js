@@ -41,6 +41,15 @@ module.exports = {
            {
                 oneOf: [
                     {
+                        test: /\.js$/,
+                        include: path.resolve(__dirname, 'src'),
+                        exclude: /node_modules/,
+                        use: [
+                            {loader: 'thread-loader', options: {workers: 3}},
+                            'babel-loader',
+                        ]
+                    },
+                    {
                         test: /\.css$/,
                         use: [
                             'logger-loader',
